@@ -1,0 +1,17 @@
+I learned a few things from this toolbox.
+There is a positive correlation between the size of the training set
+and the accuracy of the model. In addition, as you increase the number
+of trials, the curve begins to smooth out. I found that around 50 trials
+smooths out the curve almost completely. The C value for the logical
+regression also plays a role in the accuracy of the model. As you decrease
+the magnitude of the power of ten, the model gets more accurate. As you
+approach a certain value however, there is a drop off in the accuracy of
+the model. It drops almost to zero. I found this out at C= 10^-20. I think
+this is because the model just cant get that low of an r value at certain
+training set sizes.
+
+I would have loved some more background on exactly what scikit learn is
+doing here. I know it is important to know the implementation, but it feels
+very much like an unknowable black-box. I know it is essentially creating
+an equation based on the training set to evaluate other images, but
+how it does this is a mystery to me, and I feel like It is something good to learn
